@@ -1,0 +1,11 @@
+:root { color-scheme: dark; background: #121414; color: #f3f5ee; font: 17px/1.65 system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 45rem; margin: auto; padding: 2.5rem 1.25rem; overflow-wrap: anywhere; }
+.marca { color: #dcfa3d; font-weight: 850; font-style: italic; letter-spacing: -.04em; margin: 0; }
+h1, h2 { line-height: 1.2; margin: 1.35em 0 .45em; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); margin-top: .35em; letter-spacing: -.04em; }
+h1::after { content: ""; display: block; width: 3rem; height: .24rem; margin-top: .6rem; border-radius: 1rem; background: #dcfa3d; }
+h2 { font-size: 1.25rem; }
+a { color: #dcfa3d; text-underline-offset: .2em; }
+a:focus-visible { outline: .15rem solid #dcfa3d; outline-offset: .2rem; }
+footer { border-top: 1px solid #3e4341; margin-top: 2.25rem; padding-top: 1rem; }
